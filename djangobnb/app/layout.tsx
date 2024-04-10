@@ -15,11 +15,15 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const content = (
+    <p>Yo yo</p>
+  )
+
   return (
     <html lang="en">
       <body className={inter.className}>
         <Navbar />
-        <div className="Pt-24">
+        <div className="pt-32">
           {children}
         </div>
         

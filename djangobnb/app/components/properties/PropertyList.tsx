@@ -1,8 +1,12 @@
+import PropertyListItem from "./PropertyListItem";
+
 const PropertList = () => {
   return (
-    <div>
-      <h1>PropertList</h1>
-    </div>
+    <>
+      <PropertyListItem />
+      <PropertyListItem />
+      <PropertyListItem />
+    </>
   );
 };
 

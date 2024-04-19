@@ -2,7 +2,7 @@ import React from 'react'
 
 const Conversations = () => {
   return (
-    <div className='px-4 py-4 border border-gray-200 rounded-xl'>
+    <div className='px-4 py-4 cursor-pointer border border-gray-200 rounded-xl'>
         <p className='mb-6 text-xl'>
         John Doe
         </p>

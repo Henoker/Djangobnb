@@ -34,9 +34,8 @@ const ConversationDetail = () => {
         <CustomButton
          label = 'Send'
          onClick={() => console.log('send button clicked')}
-         className='w-[100px] h-[40px] bg-blue-200 hover:bg-blue-300 rounded-xl'
-        />
-        
+         className='w-[100px]'
+        />  
     </div>
     </>
   )

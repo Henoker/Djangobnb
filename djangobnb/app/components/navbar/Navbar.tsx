@@ -16,8 +16,10 @@ const Navbar = () => {
                     <SearchFilters />
                 </div>
                 <div className="flex items-center space-x-6">
-                    <AddPropertyButton />
-                    <UserNav />
+                    <AddPropertyButton
+                    />
+                    <UserNav 
+                    />
                 </div>
                 </div>
             </div>   
